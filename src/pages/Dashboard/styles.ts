@@ -9,6 +9,13 @@ export const Container = styled.div`
   max-width: 1120px;
   margin: 0 auto;
   padding: 40px 20px;
+
+  .no-data {
+    text-align: center;
+    margin-top: 64px;
+    color: #969cb3;
+    font-size: 24px;
+  }
 `;
 
 export const Title = styled.h1`
